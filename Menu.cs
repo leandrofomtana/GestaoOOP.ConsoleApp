@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GestaoOOP
+namespace GestaoOOP.ConsoleApp
 {
     class Menu
     {
@@ -13,9 +13,10 @@ namespace GestaoOOP
 
         public string Ops { get => ops; set => ops = value; }
 
-        public  void MenuPrincipal()
+        public void MenuPrincipal()
         {
-            while (true) {
+            while (true)
+            {
                 Console.WriteLine("Gestão de Equipamentos");
                 Console.WriteLine("Digite 1 para o Controle de Equipamentos");
                 Console.WriteLine("Digite 2 para o Controle de Chamados");
@@ -24,10 +25,10 @@ namespace GestaoOOP
                 if (Ops == "1") { MenuEquipamento(); }
                 else if (Ops == "2") { MenuChamadas(); }
                 else { break; }
-            } 
+            }
         }
 
-        private  void MenuEquipamento()
+        private void MenuEquipamento()
         {
             while (true)
             {

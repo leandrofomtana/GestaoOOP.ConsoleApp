@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GestaoOOP
+namespace GestaoOOP.ConsoleApp
 {
     class Chamado
     {
@@ -15,10 +15,10 @@ namespace GestaoOOP
 
         public Chamado(string titulo, string descricao, Equipamento equipamento, DateTime dataAbertura)
         {
-            this.Titulo = titulo;
-            this.Descricao = descricao;
-            this.Equipamento = equipamento;
-            this.DataAbertura = dataAbertura;
+            Titulo = titulo;
+            Descricao = descricao;
+            Equipamento = equipamento;
+            DataAbertura = dataAbertura;
         }
 
         public string Titulo { get => titulo; set => titulo = value; }

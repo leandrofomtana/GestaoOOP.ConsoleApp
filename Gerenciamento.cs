@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GestaoOOP
+namespace GestaoOOP.ConsoleApp
 {
     class Gerenciamento
     {
@@ -60,7 +60,7 @@ namespace GestaoOOP
             {
                 Console.WriteLine($"Digite o número do {tipo}: ");
                 string precoTxt = Console.ReadLine();
-                if (Int32.TryParse(precoTxt, out numero)) { break; }
+                if (int.TryParse(precoTxt, out numero)) { break; }
                 else
                 {
                     Console.WriteLine("Não é um número. Digite um número.");

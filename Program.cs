@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GestaoOOP
+namespace GestaoOOP.ConsoleApp
 {
     class Program
     {
